@@ -79,7 +79,7 @@ You can:
 
 For this step you need download files from flash_tyzs.  
 Connect ST-Link v2 to your PC.  
-Install latest version of **openocd** and **gdb-multiarach** (you can use arm dedicated version of gdb as well) package.  
+Install latest version of **openocd** and **gdb-multiarch** (you can use arm dedicated version of gdb as well) package.  
 Open terminal and enter: `openocd -f interface/stlink-v2-1.cfg -f target/efm32.cfg`. It will start debug server for GDB  
 Next, open second terminal and type: `gdb-multiarch --command=flash.gdb`  
 Script `flash.gdb` will erase flash data and write new firmware.
